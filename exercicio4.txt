@@ -17,19 +17,47 @@
 
 // RESPOSTA;
 
-Exemplo feito com Javascript;
+nome: caractere;
+endereco: caractere;
+cidade: caractere;
+cpf: caractere;
+rg: caractere;
+idade: inteiro;
+nomePai: caractere;
+nomeMae: caractere;
+peso: real;
+rendaBruta: real;
 
-const nomeCad = prompt("Digite o seu nome");
-const enderecoCad = prompt("Digite o seu endereço");
-const cidadeCad = prompt("Digite a sua cidade");
-const cpfCad = prompt("Digite o seu cpf");
-const rgCad = prompt("Digite o seu rg");
-const idadeCad = prompt("Digite a sua idade");
-const nomePaiCad = prompt("Digite o nome do seu pai");
-const nomeMaeCad = prompt("Digite o nome da sua mãe");
-const pesoCad = prompt("Digite o seu peso");
-const rendaBrutaCad = prompt("Digite a sua renda bruta");
-
-console.log(
-    `Nome: ${nomeCad}, endereço: ${enderecoCad}, cidade: ${cidadeCad}, cpf: ${cpfCad}, rg: ${rgCad}, idade: ${idadeCad}, nome do pai: ${nomePaiCad}, nome da mãe: ${nomeMaeCad}, peso: ${pesoCad}, renda bruta: ${rendaBrutaCad}`
-);
+escreva("Digite o nome: ")
+leia(nome)
+escreva("Digite o endereco: ")
+leia(endereco)
+escreva("Digite a cidade: ")
+leia(cidade)
+escreva("Digite o cpf: ")
+leia(cpf)
+escreva("Digite o rg: ")
+leia(rg)
+escreva("Digite a idade: ")
+leia(idade)
+escreva("Digite o nome do pai: ")
+leia(nomePai)
+escreva("Digite o nome da mae: ")
+leia(nomeMae)
+escreva("Digite o peso: ")
+leia(peso)
+escreva("Digite a renda bruta: ")
+leia(rendaBruta)
+      
+escreval("")
+      
+escreval("Nome: ", nome)
+escreval("Endereço: ", endereco)
+escreval("Cidade: ", cidade)
+escreval("Cpf: ", cpf)
+escreval("Rg: ", rg)
+escreval("Idade: ", idade)
+escreval("Nome do pai: ", nomePai)
+escreval("Nome da mãe: ", nomeMae)
+escreval("Peso: ", peso)
+escreva("Renda bruta: ", rendaBruta)
